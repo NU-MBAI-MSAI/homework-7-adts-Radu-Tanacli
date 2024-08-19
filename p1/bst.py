@@ -74,3 +74,4 @@ if __name__ == '__main__':
     tree = BST.create(nodes)
     print(tree.traverse_pre())  # Should return [25, 20, 15, 22, 30, 29, 35]
     print(tree.traverse_post())  # Should return [15, 22, 20, 29, 35, 30, 25]
+    # lets hope it works
